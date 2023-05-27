@@ -7,31 +7,21 @@ export default function Conteudo() {
     const modoEscuro = 'modo-escuro';
     const modoClaro = 'modo-claro';
 
-    const [modo, setModo] = useState(modoClaro);
-    const [estiloAtualizado, setEstiloAtualizado] = useState(true);
-    const [imagem, setImagem] = useState('/assets/sun.png')
+    const [temaEscuro, setTemaEscuro] = useState(false)
 
-    const alterarModo = () => {
-        if (estiloAtualizado === true) {
-            setEstiloAtualizado(false);
-            setModo(modoEscuro);
-            setImagem('/assets/moon.png');
-        } else {
-            setEstiloAtualizado(true)
-            setModo(modoClaro);
-            setImagem('/assets/sun.png');
-        }
+    const alterarTema = () => {
+        setTemaEscuro(!temaEscuro)
     };
 
 
     return (
-        <div className={modo}>
+        <div className={temaEscuro ? modoEscuro : modoClaro}>
             <header className='limita-secao'>
                 <a href="/">
                     <img className="logo" src='/assets/pokeball.png' alt='pokebola' title='pokebola' />
                 </a>
-                <button id='botao-alterar-tema' onClick={alterarModo}>
-                    <img className="icone-botao" src={imagem} alt='ícone de sol' title='Modo' />
+                <button id='botao-alterar-tema' onClick={alterarTema}>
+                    <img className="icone-botao" src={temaEscuro ? 'assets/sun.png' : 'assets/moon.png'} alt='ícone de sol' title='Tema' />
                 </button>
             </header>
 
