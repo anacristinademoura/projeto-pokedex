@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.modo-escuro {
+    background-color: #212121;
+    color: #f5f5f5;
+}
+.modo-claro {
+    background-color: #5e5b5bad;
+    color: #333;
+}

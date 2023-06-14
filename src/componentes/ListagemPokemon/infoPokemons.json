@@ -1,0 +1,88 @@
+[
+    {
+        "nome": "bulbasaur",
+        "numero": "#001",
+        "imagem": "bulbasaur.gif",
+        "tipo1": "tipo grama",
+        "tipo2": "tipo veneno",
+        "nomeTipo1": "Grama",
+        "nomeTipo2": "Veneno",
+        "descricao": "Há uma semente de planta em suas costas desde o dia que este Pokémon nasce. A semente cresce lentamente."
+    },
+    {
+        "nome": "ivysaur",
+        "numero": "#002",
+        "imagem": "ivysaur.gif",
+        "tipo1": "tipo grama",
+        "tipo2": "tipo veneno",
+        "nomeTipo1": "Grama",
+        "nomeTipo2": "Veneno",
+        "descricao": "Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar de pé em suas patas traseiras."
+    },
+    {
+        "nome": "venusaur",
+        "numero": "#003",
+        "imagem": "venusaur.gif",
+        "tipo1": "tipo grama",
+        "tipo2": "tipo veneno",
+        "nomeTipo1": "Grama",
+        "nomeTipo2": "Veneno",
+        "descricao": "Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz solar." 
+    },
+    {
+        "nome": "charmander",
+        "numero": "#004",
+        "imagem": "charmander.gif",
+        "tipo1": "tipo fogo",
+        "nomeTipo1": "Fogo",
+        "descricao": "Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta de sua cauda."
+    },
+    {
+        "nome": "charmeleon",
+        "numero": "#005",
+        "imagem": "charmeleon.gif",
+        "tipo1": "tipo fogo",
+        "nomeTipo1": "Fogo",
+        "descricao": "Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com garras afiadas."
+    },
+    {
+        "nome": "charizard",
+        "numero": "#006",
+        "imagem": "charizard.gif",
+        "tipo1": "tipo fogo",
+        "nomeTipo1": "Fogo",
+        "descricao": "Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas."
+    },
+    {
+        "nome": "squirtle",
+        "numero": "#007",
+        "imagem": "squirtle.gif",
+        "tipo1": "tipo agua",
+        "nomeTipo1": "Água",
+        "descricao": "Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força vigorosa."
+    },
+    {
+        "nome": "wartortle",
+        "numero": "#008",
+        "imagem": "wartortle.gif",
+        "tipo1": "tipo agua",
+        "nomeTipo1": "Água",
+        "descricao": "É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse Wartortle é muito antigo."
+    },
+    {
+        "nome": "blastoise",
+        "numero": "#009",
+        "imagem": "blastoise.gif",
+        "tipo1": "tipo agua",
+        "nomeTipo1": "Água",
+        "descricao": "Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha."
+    },
+    {
+        "nome": "caterpie",
+        "numero": "#010",
+        "imagem": "caterpie.gif",
+        "tipo1": "tipo inseto",
+        "nomeTipo1": "Inseto",
+        "descricao": "Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os inimigos."
+    }
+]

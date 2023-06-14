@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 62px;
+}
+
+.logo,
+.icone-botao {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+#botao-alterar-tema {
+    background: none;
+    border: none;
+}
+
+.logo:hover,
+.icone-botao:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
