@@ -1,5 +1,5 @@
 <h1 align=center>
-    <img height=100 src="./src/assets/pokeball.png">
+    <img height=100 width=100 src="./src/assets/pokeball.png">
     <p>PokeDex</p>
 </h1>
 
